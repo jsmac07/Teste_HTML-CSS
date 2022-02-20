@@ -1,0 +1,62 @@
+body{
+    background-color: #fffbef;
+    color: black;
+}
+.barra{
+    background-color: #F8AFA0;
+    color: inherit;
+}
+.conteudo{
+    padding: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.barra_interna{
+text-decoration: none;
+color: black;
+margin: 20px;
+}
+.titulo{
+    font-family: 'Eczar', serif;
+    font-weight: bold; 
+}
+.subtitulo{
+    font-family: 'League Script', cursive;
+    font-weight: bold;
+}
+.inicio{
+    text-align: center;
+}
+div ul a{ 
+    text-decoration: none;
+    margin: 15px;
+}
+.epitelio1{
+    float: right;
+    border-radius: 100px;
+    object-fit: contain;
+width: 30%;
+    height: 80px;
+}
+.epitelio2{
+    float: left;
+    border-radius: 100px;
+    object-fit: contain;
+    width: 40%;
+    height: 140px;}
+
+.img_menu{
+  
+   object-fit: cover;
+   padding: 0 6px;
+   width: 100%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+
